@@ -21,11 +21,11 @@ ventas = {
     # 91000
     # Se evaluará el output en pantalla.
     # El hash utilizado para evaluar puede ser distinto y tener más o menos meses.
-    selected_sales = ventas.select do |key, value|
-        value >45000
-    end
+selected_sales = ventas.select do |key, value|
+    value >45000
+end
 
     # ventas.each do |key, value|
     #     print "#{value}\s" if value >45000
     # end
-    print selected_sales.values
+print selected_sales.values
